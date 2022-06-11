@@ -1,0 +1,12 @@
+#file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    user-select: none;
+    /* display: none; */
+    width: 80px;
+    }
+#file-input{
+        padding:2rem 5rem 3rem 5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }

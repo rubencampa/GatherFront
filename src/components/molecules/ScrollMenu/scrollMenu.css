@@ -1,0 +1,30 @@
+.scroll-menu{
+    display: flex;
+    background-color: #404040;
+    margin-top: 1rem;
+    overflow: auto;
+    cursor: grab;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tema{
+    width: 100%;
+    margin: 20px 0;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ffa800;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.tema:hover{
+    cursor:pointer;
+}
+
+@media screen and (min-width:1024px) {
+   .scroll-menu{
+       overflow: hidden;
+   }
+}

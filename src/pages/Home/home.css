@@ -1,0 +1,36 @@
+.container-home{
+    background-color: #606060;
+    min-height: 100vh;
+
+    max-width: 100%;
+    margin:0;
+}
+.div_enlace-administrador{
+   width: 100%;
+   /* background-color: red; */
+   display: flex;
+   margin: 1rem 0;
+}
+.enlace-administrador{
+    background-color: #ffa800;
+    color: white;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 3px 6px 5px grey;
+}
+
+.enlace-administrador:hover{
+    background-color: #404040;
+    color: white;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+

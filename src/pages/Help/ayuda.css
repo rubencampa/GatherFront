@@ -1,0 +1,40 @@
+.container-ayuda{
+    background-color: #606060;
+    min-height: 100vh;
+    max-width: 100%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-ayuda h3{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.imagenes-ayuda{
+    background-color: #c4c4c4;
+    /* width: 70%; */
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.img-btn-admin{
+    display: flex;
+    align-items: center;
+}
+
+.img-btn-admin p{
+   color: white;
+   padding: 1rem;
+   font-weight: bold;
+   margin: 2rem;
+   background-color: #606060;
+}
+
+.img{
+    width: 1250px;
+    margin: 10px;
+}

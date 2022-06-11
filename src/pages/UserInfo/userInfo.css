@@ -1,0 +1,102 @@
+.container-userInfo{
+    background-color: #606060;
+    min-height: 100vh;
+    max-width: 100%;
+    padding-bottom:3rem;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.container-userInfo h3{
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    /* padding:3rem 0; */
+}
+
+
+.Pfp{
+    /* background-color: beige;
+    width: 5%;
+    margin: 0 auto;
+    border-radius: 25px; */
+    padding-top: 1rem;
+}
+
+.Pfp img{
+    background-color: beige;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 1rem;
+    width: 5rem;
+}
+
+.Pfp_on{
+    padding-top: 1rem;
+}
+
+.Pfp_on img{
+    width: 15rem;
+}
+
+.userInfo{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* height: 400px; */
+    background-color: #c4c4c4;
+}
+
+.datosUsuario{
+    width: 100%;
+    /* margin: 2rem auto; */
+    /* background-color: red; */
+    text-align: center;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.elto_info{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.datos{
+    /* background-color: #c4c4c4; */
+    /* margin: 2rem auto; */
+    border:none;
+    outline:none;
+    text-align: center;
+    margin: 0 4rem;
+    box-shadow: 2px 2px 5px black;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea_desc{
+    max-width: 500px;
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+.textarea_desc:hover{
+    /* background-color: white; */
+}
+
+.textarea_desc:focus{
+    background-color: white;
+}
+
+.btn-actualizar{
+    width: 400px;
+}

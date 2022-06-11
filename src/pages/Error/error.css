@@ -1,0 +1,11 @@
+.container-error{
+    background-color: #606060;
+    min-height: 100vh;
+    max-width: 100%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+.container-error p{
+    margin-top: 2rem;
+}
