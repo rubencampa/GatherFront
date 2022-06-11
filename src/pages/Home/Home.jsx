@@ -131,7 +131,7 @@ const Home = ({route}) => {
           />
 
         <main className="my-auto">
-          {usuarioActual.is_superuser ? (<><div className="div_enlace-administrador"><a href="#" type="button" value="Administracion" className="enlace-administrador" onClick={() => window.location.href = "http://localhost:8000/admin"} >Administracion</a></div></>) : null}
+          {usuarioActual.is_superuser ? (<><div className="div_enlace-administrador"><a href="#" type="button" value="Administracion" className="enlace-administrador" onClick={() => window.location.href = `${Constantes.api_url}/admin`} >Administracion</a></div></>) : null}
           {/* {(postsFiltradosPorBuscador.length != 0) ? (<>{bloquePostsFiltradosPorBuscador}</>)
           :null} */}
           {/* {} */}
