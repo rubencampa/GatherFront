@@ -7,6 +7,12 @@
     /* min-height: 300px; */
 }
 
+@media screen and (min-width:760px) {
+    .div-post{
+        max-width: 40%;
+    }
+}
+
 .header-post, .footer-post{
     background-color: #404040;
     color: white;
