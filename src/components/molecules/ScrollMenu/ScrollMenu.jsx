@@ -25,7 +25,7 @@ const ScrollMenu = ({handleTemas, handleReiniciarTemas}) =>{
     
     
     return (
-      <div ref={ref} onMouseDown={onMouseDown} className="scroll-menu">
+      <div ref={ref} onMouseDown={onMouseDown} className="scroll-menu" tabIndex={3}>
          {/* //Poner posible pipeline para nombres largos */}
         <div className="tema item" onClick={() => handleReiniciarTemas()}>Todo</div>
          {temasTotales ?

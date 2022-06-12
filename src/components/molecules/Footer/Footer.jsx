@@ -20,7 +20,7 @@ const Footer = () => {
             <ul className="wrapper redes">
               <li className="icon linkedIn">
                 <span className="tooltip">LinkedIn</span>
-                <span className="sm-logo">
+                <span className="sm-logo" aria-label="LinkedIn">
                   <a href="https://www.linkedin.com/in/rub%C3%A9n-campanario-di%C3%A9guez-64ba6a1b9/">
                     {" "}
                     <FontAwesomeIcon icon={faLinkedinIn} />
@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
               <li className="icon twitter">
                 <span className="tooltip">Twitter</span>
-                <span className="sm-logo">
+                <span className="sm-logo" aria-label="Twitter">
                   <a href="https://twitter.com/rubencampa163">
                     {" "}
                     <FontAwesomeIcon icon={faTwitter} />
@@ -38,7 +38,7 @@ const Footer = () => {
               </li>
               <li className="icon github">
                 <span className="tooltip">Github</span>
-                <span className="sm-logo">
+                <span className="sm-logo" aria-label="Github">
                   <a href="https://github.com/rubencampa">
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
@@ -59,7 +59,7 @@ const Footer = () => {
             <ul className="wrapper iconoCorreo">
               <li className="icon correo">
                 <span className="tooltip">Correo</span>
-                <span className="sm-logo">
+                <span className="sm-logo" aria-label="Correo electrónico">
                   <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvrcSTtgJJCnqXNWRSbsLnpJXXRGHMgnhFzlFqxnmDJLTsrQBxRWQvczWsmXwWWLGMNDVV">
                     {" "}
                     <FontAwesomeIcon icon={faEnvelope} />
@@ -68,11 +68,7 @@ const Footer = () => {
               </li>
               <li className="icon correo">
                 <span className="tooltip">Ayuda</span>
-                <span className="sm-logo">
-                  {/* <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvrcSTtgJJCnqXNWRSbsLnpJXXRGHMgnhFzlFqxnmDJLTsrQBxRWQvczWsmXwWWLGMNDVV">
-                    
-                    <FontAwesomeIcon icon={faCircleQuestion} />
-                  </a> */}
+                <span className="sm-logo" aria-label="Ayuda">
                   <Link to="/ayuda"> <FontAwesomeIcon icon={faCircleQuestion} /></Link>
                 </span>
               </li>

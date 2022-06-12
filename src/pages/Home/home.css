@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Orelega One';
+    src: url('../../resources/fonts/Orelega_One/OrelegaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../resources/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+*{
+    font-family: 'Orelega_One';
+}
+
 .container-home{
     background-color: #606060;
     min-height: 100vh;

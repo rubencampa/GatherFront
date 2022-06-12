@@ -125,6 +125,7 @@ const Home = ({route}) => {
         />
 
         <ScrollMenu 
+          id="menuScrollTemas"
           className="my-4" 
           handleTemas={handleTemas}
           handleReiniciarTemas={handleReiniciarTemas}

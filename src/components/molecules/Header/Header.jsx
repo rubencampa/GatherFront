@@ -50,7 +50,7 @@ const Header = ({handleDatosBuscador}) => {
     {/* <div className="header container-fluid w-100"> */}
     <header className="w-100">
         <div className="logo col-md-4">
-          <img className="img-fluid pe-3 imagenHeader" src={Logo} alt="" onClick={() => navigate('/home',{state:{username:usernameActual}})} />
+          <img className="img-fluid pe-3 imagenHeader" id="Logo" aria-labelledby="Logo" src={Logo} alt="" onClick={() => navigate('/home',{state:{username:usernameActual}})} />
           <h1 className="brand-name text-white">Gather</h1>
         </div>
         <div className="buscador-header col-7 my-sm-5 my-md-5 col-md-4">
@@ -61,6 +61,7 @@ const Header = ({handleDatosBuscador}) => {
               type="text"
               name="searchQueryInput"
               placeholder="Search"
+              aria-describedby="buscador posts"
               onChange={handlePostPorTitulo}
             />
             <button
@@ -79,7 +80,7 @@ const Header = ({handleDatosBuscador}) => {
             {/* {usuarioActual.state?.username} */}
             <Link to="/userInfo" className="userLink" state={{'user': JSON.parse(localStorage.getItem('user'))}}>
             {userActual.imagePfp ? 
-                            (<><div className="Pfp_on_header"><img src={`${Constantes.api_url}${userActual.imagePfp}`} alt="" /></div></>)    
+                            (<><div className="Pfp_on_header"><img src={`${Constantes.api_url}${userActual.imagePfp}`} alt="" aria-label="perfil info" /></div></>)    
                         : (<> <div className="Pfp_header"><img src={Pfp} alt="" /></div></>)}
               {/* <img className='img-fluid' src={Pfp} alt="" /> */}
               <p>{usernameActual}</p>
@@ -87,11 +88,11 @@ const Header = ({handleDatosBuscador}) => {
           </div>
           <div className="botones">
           {usuarioActual.state != null? (<>
-            <Button className="button btn-login" variant="contained" onClick={() => navigate('/newPost')} style={style}>
+            <Button className="button btn-login" variant="contained" onClick={() => navigate('/newPost')} style={style} aria-label="Crear Post">
               Crear post
             </Button>
           </>) : null}
-          <Button className="button btn-login" variant="contained" onClick={() => {
+          <Button className="button btn-login" variant="contained" aria-label="Cerrar sesión" onClick={() => {
             localStorage.setItem('access_token','')
             localStorage.setItem('refresh_token','')
             localStorage.setItem('user','')
